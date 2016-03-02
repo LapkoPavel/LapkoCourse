@@ -2,4 +2,5 @@
 <aop-reference-model>
 <aop-project name="Idol"/>
 <aop-project name="Cities"/>
+<aop-project name="SpringIdol"/>
 </aop-reference-model>
