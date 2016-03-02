@@ -12,7 +12,7 @@ public class OnAir
 		ApplicationContext ctx = new ClassPathXmlApplicationContext
 				("com/contact/contact.xml");
 		PhoneNumber performer = (PhoneNumber) ctx.getBean("infoPhone");
-	    System.out.println(performer.number);
+	
 		
 	}
 

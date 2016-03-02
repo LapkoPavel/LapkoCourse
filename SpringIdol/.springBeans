@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/com/springinaction/springidol/spring-idol.xml</config>
 		<config>src/com/contact/contact.xml</config>
+		<config>src/com/post/post.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

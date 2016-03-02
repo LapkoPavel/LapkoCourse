@@ -14,4 +14,9 @@ public class PhoneNumber
 		this.prefix = prefix;
 		this.number = number;
 	}
+	
+	public String getNumber()
+	{
+		return "Number is"+areaCode+prefix+number;
+	}
 }

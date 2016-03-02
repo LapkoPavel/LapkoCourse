@@ -2,27 +2,26 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-aop-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-aspects-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-beans-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-context-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-context-support-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-core-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-expression-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-instrument-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-instrument-tomcat-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-jdbc-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-jms-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-messaging-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-orm-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-oxm-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-test-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-tx-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-web-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-webmvc-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-webmvc-portlet-4.2.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/sts-bundle/DIST/spring-websocket-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-aop-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-aspects-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-beans-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-context-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-context-support-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-core-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-expression-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-instrument-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-instrument-tomcat-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-jdbc-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-jms-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-messaging-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-orm-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-oxm-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-test-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-tx-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-web-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-webmvc-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-webmvc-portlet-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/spring-websocket-4.2.4.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

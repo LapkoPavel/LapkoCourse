@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="infoPhone"
+<!--  <bean id="infoPhone"
 	  class="com.contact.PhoneNumber">
 	  <constructor-arg value ="888"/>
 	  <constructor-arg value ="555"/>
@@ -12,5 +12,25 @@
    <bean id="contact"
    	class="com.contact.Contact">
    	<property name="phoneNumber" ref="infoPhone"/>
-   	</bean>
+   	</bean> -->
+   	
+<bean 
+	class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+<property name="customEditors">
+	<map>
+		<entry key="com.contact.PhoneEditor">
+			<bean id="phoneEditor"
+				class="com.contact.PhoneEditor" />
+		</entry>
+	</map>
+</property>
+</bean>
+
+<bean id="contact"
+	class="com.contact.Contact">
+ <property name="phoneNumber" value="888-555-1212" />	
+</bean>
+
 </beans>
+
+
