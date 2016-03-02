@@ -1,5 +1,8 @@
 package com.springinaction.springidol;
 
+import org.springframework.beans.factory.annotation.Configurable;
+
+@Configurable("pianist")
 public class Instrumentalist implements Performer
 {
 	public Instrumentalist(){}

@@ -70,12 +70,23 @@
 </bean>
 -->
 
-<bean id="carl"
+<!--<bean id="carl"
  class="com.springinaction.springidol.Instrumentalist">
  <property name = "song" value="#{kenny.song}"/>
  <property name = "instrument" ref ="piano"/>
  </bean>
+-->
+
+<bean id="pianist"
+class="com.springinaction.springidol.Instrumentalist"
+abstract="true">
+
+<property name="song" value="Chopsticks"/>
+<property name="instrument">
+	<bean class ="com.springinaction.springidol.Piano"/>
+</property>
 
 
+</bean>
 </beans>
 
