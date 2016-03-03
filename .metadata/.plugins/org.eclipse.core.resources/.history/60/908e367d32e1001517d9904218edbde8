@@ -1,0 +1,16 @@
+package com.springinaction.scripting;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.post.Rabbit;
+
+public class OnAir {
+	public static void main(String[] args)
+	{
+	ApplicationContext ctx = new ClassPathXmlApplicationContext
+			("");
+	Coconut performer = (Coconut) ctx.getBean("coconut");
+	performer.drinkThemBothUp();
+	}
+}
