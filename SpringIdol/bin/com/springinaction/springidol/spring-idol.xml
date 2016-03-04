@@ -2,10 +2,17 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:p= "http://www.springframework.org/schema/p"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
-    default-init-method="turnOnLights"
-	default-destroy-method="turnOffLights">
-    
+	xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+<context:component-scan
+base-package="com.springinaction.springidol">
+<context:include-filter type="assignable"
+	expression="com.springinaction.springidol.Instrument"/>
+</context:component-scan>
 
 <!-- <bean id="duke" class="com.springinaction.springidol.Juggler"/>-->
 
@@ -37,17 +44,18 @@
 <bean id="piano"
 	class="com.springinaction.springidol.Piano"/>
 
-<!-- <bean id="kenny"
- class="com.springinaction.springidol.Instrumentalist">
-    <property name="song" value="Jingle Bells"/>
-    <property name="instrument" ref="piano"/>
-</bean>
--->
-
 <bean id="kenny"
+ class="com.springinaction.springidol.Instrumentalist" 
+ autowire="byName">
+    <property name="song" value="Jingle Bells"/>
+    
+</bean> 
+
+<!--<bean id="kenny"
  class="com.springinaction.springidol.Instrumentalist"
     p:song ="Jingle Bells"
     p:instrument-ref="saxophone"/>
+-->
 
 <!--<bean id="hank"
 	class="com.springinaction.springidol.OneManBand">
@@ -77,7 +85,7 @@
  </bean>
 -->
 
-<bean id="pianist"
+<!--  <bean id="pianist"
 class="com.springinaction.springidol.Instrumentalist"
 abstract="true">
 
@@ -85,8 +93,15 @@ abstract="true">
 <property name="instrument">
 	<bean class ="com.springinaction.springidol.Piano"/>
 </property>
-
-
 </bean>
+-->
+
+<!-- <bean id="kenny2"
+ class="com.springinaction.springidol.Instrumentalist">
+    <property name="song" value="Jingle Bells"/>
+    <property name="instrument" ref="piano"/>
+</bean>
+-->
+
 </beans>
 

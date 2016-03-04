@@ -9,7 +9,7 @@ public class OnAir
 	{
 		ApplicationContext ctx = new ClassPathXmlApplicationContext
 				("com/springinaction/springidol/spring-idol.xml");
-		Performer performer = (Performer) ctx.getBean("pianist");
+		Performer performer = (Performer) ctx.getBean("kenny");
 		performer.perform();
 		
 	}

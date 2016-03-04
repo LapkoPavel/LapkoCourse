@@ -1,5 +1,10 @@
 package com.springinaction.springidol;
 
+import org.springframework.stereotype.Component;
+
+import com.springinaction.springidol.qualifiers.StringedInstrument;
+
+@Component
 public class Saxophone implements Instrument
 {
 	public Saxophone()

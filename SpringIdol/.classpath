@@ -23,5 +23,6 @@
 	<classpathentry kind="lib" path="D:/DIST/spring-webmvc-4.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/DIST/spring-webmvc-portlet-4.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/DIST/spring-websocket-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DIST/javax-inject.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

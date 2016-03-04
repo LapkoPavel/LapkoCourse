@@ -1,8 +1,15 @@
 package com.springinaction.springidol;
 
-import org.springframework.beans.factory.annotation.Configurable;
+import javax.inject.Inject;
+import javax.inject.Named;
 
-@Configurable("pianist")
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.stereotype.Component;
+
+import com.springinaction.springidol.qualifiers.StringedInstrument;
+
+@Component("eddie")
 public class Instrumentalist implements Performer
 {
 	public Instrumentalist(){}
@@ -29,8 +36,10 @@ public class Instrumentalist implements Performer
 	{
 		return song;
 	}
-	
+
 	private Instrument instrument;
+	
+
 	
 	public void setInstrument(Instrument instrument)
 	{
