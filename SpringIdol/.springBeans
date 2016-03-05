@@ -7,10 +7,10 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>src/com/springinaction/springidol/spring-idol.xml</config>
 		<config>src/com/contact/contact.xml</config>
 		<config>src/com/post/post.xml</config>
 		<config>src/com/springinaction/scripting/coconut.xml</config>
+		<config>src/com/springinaction/scripting/spring-idol.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

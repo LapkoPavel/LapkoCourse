@@ -5,11 +5,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class OnAir 
 {
+	private static ApplicationContext ctx;
+
 	public static void main (String [] args) throws PerformanceException
 	{
-		ApplicationContext ctx = new ClassPathXmlApplicationContext
-				("com/springinaction/springidol/spring-idol.xml");
-		Performer performer = (Performer) ctx.getBean("kenny");
+		ctx = new ClassPathXmlApplicationContext
+				("com/springinaction/springidol/spring-idol2.xml");
+		Performer performer = (Performer) ctx.getBean("duke");
 		performer.perform();
 		
 	}
